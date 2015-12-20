@@ -1,6 +1,6 @@
 TDD is <del>dead</del> not a design methodology
 
-Recently, on an interview, I was explaining to an enthusiastic candidate what is TDD. 
+Recently, on an interview, I was explaining to an enthusiastic candidate what is Test Driven Development. 
 
 "It is a design methodology" - said I.  
 "Is it really though?" - thought my brain.
