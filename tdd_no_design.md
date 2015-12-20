@@ -1,4 +1,4 @@
-#TDD is <del>dead</del> not a design methodology
+TDD is <del>dead</del> not a design methodology
 
 Recently, on an interview, I was explaining to an enthusiastic candidate what is TDD. 
 
