@@ -23,16 +23,16 @@ cat - <<EOF > $out_file
 	<title>${title}</title>
 </head>
 <body>
-<span itemscope itemtype="http://schema.org/Article">
+<span itemscope itemtype="http://schema.org/BlogPosting">
 <div id="header">
 	<h1 itemprop="name" id="title">${title}</h1>
 	<h3 class="signature">
 		By
 		<span itemprop="author" itemscope itemtype="http://schema.org/Person" class="author">
-		<span itemprop="givenName">${author}</span>
+			<span itemprop="givenName">${author}</span>
+			<a itemprop="sameAs" target="_blank" href="https://twitter.com/Sharas_">@Sharas_</a>
 		</span>
-		<a itemprop="sameAs" target="_blank" href="https://twitter.com/Sharas_">@Sharas_</a>
-		on <span itemprop="dateCreated">$(date +"%B %d %Y")</span>
+	on <span itemprop="dateCreated">$(date +"%B %d %Y")</span>
 	</h3>
 </div>
 <div id="content" itemprop="text">

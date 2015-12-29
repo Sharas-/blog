@@ -7,13 +7,13 @@ We will get together periodically. Besides participating in debates, there are t
 - Introduce your research topic and team-up with craftsmen inspired by it into research groups.
 - Present findings of your ongoing research along with the team.
 
-This is how you take advantage of two instruments facilitating your progress: team learning and knowledge reinforcement. 
+This is how you take advantage of two instruments facilitating your progress: team research and knowledge reinforcement. 
 
-##Team learning
+##Team Research
 
 None of us lack motivation to learn. That energy comes from inside, fueled by passion for our craft. And it adds-up when you learn in a team. Prospect of sharing your discoveries with like minded peers works magic on concentrating and energizing your mind. When you study a subject and know people that are eager to learn it too, you become focused and alert in search for gems of knowledge to share with them. 
 
-Besides sharing your findings, learning in a team makes a great forum to ask questions when you get stuck. Also, seeing what other researchers find interesting or important or confusing gives you additional perspectives on the topic. 
+Besides sharing your findings, research team makes a great forum to ask questions when you get stuck. Also, seeing what other researchers find interesting or important or confusing gives you additional perspectives on the topic. 
 
 An insightful sentence you have just read in a book. An exemplary peace of code you spotted. An innovative technology you heard about. A helpful research paper you came across. Just to mention few examples of what you might want to share as a finding. 
 
@@ -62,15 +62,15 @@ Few examples of study items you might want to introduce in our meetings:
 - Innovative technology you want to explore
 - Research paper you want to grasp
 
-##Our team learning platform
+##Our team research platform
 
-To facilitate your teams' collaboration online, whenever you discover a study item of your interest, create a new topic in our clubs' <a href='http://itcraftsmen.club' target='_blank'>team learning platform</a>. Make clear what study item you are researching and tag it with a proper study domain category. Our platform is public, so anybody interested in your topic can team-up with you. 
+To facilitate your teams' collaboration online, whenever you discover a study item of your interest, create a new topic in our clubs' <a href='http://itcraftsmen.club' target='_blank'>team research platform</a>. Make clear what study item you are researching and tag it with a proper study domain category. Our platform is public, so anybody interested in your topic can team-up with you. 
 
 And with this, the stage is yours. Let the learning commence!
 
 #Summary
 
-Our club gives you two instruments to facilitate your learning progress: Team Learning and Knowledge Reinforcement.
+Our club gives you two instruments to facilitate your learning progress: Team Research and Knowledge Reinforcement.
 
 Learning with a team of like minded peers energizes and concentrates your mind. Prospect of sharing with them turns peaces of information that you gather on your research subject into *findings*. Joy of sharing those findings boosts your motivation to learn. You become more focused on the subject in search of them.
 
