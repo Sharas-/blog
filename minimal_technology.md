@@ -1,6 +1,6 @@
 # Minimal Technology
 
->We are stuck with technology when what we really want is just stuff that works.
+>We are stuck with technology when what we really want is just stuff that works.  
 <cite>Douglas Adams</cite>
 
 I recently had an interesting discussion in [our club][ITCLC] about technology minimalist mindset in our industry of IT "solutions". We, IT Craftsmen, are fascinated by technology. Yet to become skillful and *artistic* in solving problems by means of information technology we have to treat it as a compromise. We have to know it comes with a cost. A sobering and mature view of deployed technology is as just a smaller problem compared to the one it is "solving".
