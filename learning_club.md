@@ -1,4 +1,4 @@
-IT Craftsmen Learning club
+# IT Craftsmen Learning club
 
 Learning is what makes us craftsmen. I want to intensify that already rewarding exercise. First, by energizing the activity of learning, and second, by reinforcing the knowledge and skills that we acquired. Learning within a team of like minded researchers achieves first objective. Presenting and explaining your newly acquired knowledge to fellow craftsmen takes care of the second. This is the purpose of IT Craftsmen Learning Club. 
 
@@ -9,7 +9,7 @@ We will get together periodically. Besides participating in debates, there are t
 
 This is how you take advantage of two instruments facilitating your progress: team research and knowledge reinforcement. 
 
-##Team Research
+## Team Research
 
 None of us lack motivation to learn. That energy comes from inside, fueled by passion for our craft. And it adds-up when you learn in a team. Prospect of sharing your discoveries with like minded peers works magic on concentrating and energizing your mind. When you study a subject and know people that are eager to learn it too, you become focused and alert in search for gems of knowledge to share with them. 
 
@@ -17,7 +17,7 @@ Besides sharing your findings, research team makes a great forum to ask question
 
 An insightful sentence you have just read in a book. An exemplary peace of code you spotted. An innovative technology you heard about. A helpful research paper you came across. Just to mention few examples of what you might want to share as a finding. 
 
-##Knowledge reinforcement
+## Knowledge reinforcement
 
 That feeling when you try to explain what you know and get lost for words. We all been there. Until you structure your thoughts into presentable and concise form you cannot be sure you know the subject. It is likely you only think you know it. Trust me, I am constantly going through that kind of disillusionment while writing this text. To quote [Leslie Lamport][lamport]:
 
@@ -36,7 +36,7 @@ For our purposes a less ambitious goal of explaining it to fellow craftsmen will
 
 Giving examples of your subjects' use with pros and cons and describing its purpose is a good way to explain its meaning.
 
-##Our clubs' curriculum 
+## Our clubs' curriculum 
 
 Now that you know how to harness the benefits of learning in a company of passionated comrades, lets discus what kind of subjects IT craftsman should be studying. 
 
@@ -62,13 +62,13 @@ Few examples of study items you might want to introduce in our meetings:
 - Innovative technology you want to explore
 - Research paper you want to grasp
 
-##Our team research platform
+## Our team research platform
 
 To facilitate your teams' collaboration online, whenever you discover a study item of your interest, create a new topic in our clubs' <a href='http://itcraftsmen.club' target='_blank'>team research platform</a>. Make clear what study item you are researching and tag it with a proper study domain category. Our platform is public, so anybody interested in your topic can team-up with you. 
 
 And with this, the stage is yours. Let the learning commence!
 
-#Summary
+## Summary
 
 Our club gives you two instruments to facilitate your learning progress: Team Research and Knowledge Reinforcement.
 
