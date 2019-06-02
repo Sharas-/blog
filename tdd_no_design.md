@@ -1,4 +1,4 @@
-TDD is <del>dead</del> not a design methodology
+# TDD is <del>dead</del> not a design methodology
 
 Recently, on an interview, I was explaining to an enthusiastic candidate what is Test Driven Development. 
 
@@ -7,7 +7,7 @@ Recently, on an interview, I was explaining to an enthusiastic candidate what is
 
 It felt wrong, this definition. Although it is often used by "true understanders" of the technique. With an air of uncertainty I explained - "At least that's the theory".
 
-##Practice vs theory of TDD
+## Practice vs theory of TDD
 
 Lets talk about practice. Designing is trying things out. It is like sketching. You start with vague contours and gradually, as you learn, apply critical thinking and your taste for good design (if you have one yet), you refactor towards more meaningful and succinct code.
 
@@ -17,7 +17,7 @@ Also, design process is iterative. You structure new knowledge and insights into
 
 Is writing a test first good way to try things out? Does it somehow enhance your creativity or guides it? When I reflect on my design insights or breakthroughs, it has nothing to do with it.
 
-##Where design comes from
+## Where design comes from
 
 I do start writing my code from the top. Sometimes the first "top" being my domain model actors. In style of [hexagonal architecture][hex_arch] system grows from inside. I get inspiration for my model from the goals and problems of business domain. I get insights for the initial sketches from crunching domain knowledge.
 
@@ -27,7 +27,7 @@ In any case, tests have an important role to play at this stage to give me confi
 
 It takes effort, fastidiousness and domain knowledge crunching to get the design right. Until it "feels right". That feeling for what is right comes with a taste for good design. Where does that taste comes from?
 
-##TDD as training wheels
+## TDD as training wheels
 
 I don't know. Maybe your parents? But I do know that it is refined and finessed with practice. For a rookie software craftsman, writing a test first can help focus her attention on the top-down aspect of designing. Focusing on test-ability of your code means focusing on its goals and correctness. Goals of the code defines its roles. Roles are candidates for components. Code becomes modular. But it is not necessarily useful.
 
@@ -39,13 +39,13 @@ The point is, TDD will not make you a good designer. Nor will it somehow lead yo
 
 Good design also makes complicated parts of the system tractable. And that is where writing a test first can be a useful mental aid for you.
 
-##TDD is a problem solving technique
+## TDD is a problem solving technique
 
 Given a definition of a reasonably clearly stated but complex problem. How do you approach it? How about formalizing a simple, likely naive intuition that you have about the solution as a statement. Now find a way to support that statement with a working scenario. Did the search for scenario give you new insight about the problem? Formalize it as a statement. Repeat. 
 
 Sounds familiar? Red-Green-Refactor. Refactoring bit is about refining your insights about the problem into a simpler solution of it. Simple, declarative solution to a complex problem is clearly a good design. But it is not the utility of TDD. It is a methodical approach to tackling reasonably complex problems. 
 
-##Summary
+## Summary
 
 For a beginning software craftsman, writing tests first can give a taste of how a modular design feels. Modular and testable design can be naive and technocratic if it doesn't embody useful domain model. TDD is most valuable as a methodical approach to reasonably clearly stated but complex problems. The thing is, on an average project, there aren't that many reasonably clearly stated but complex problems. Most of the design process resembles sketching more than problem solving.
 
