@@ -1,4 +1,4 @@
-Minimal Technology
+# Minimal Technology
 
 >We are stuck with technology when what we really want is just stuff that works.
 <cite>Douglas Adams</cite>
