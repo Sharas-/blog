@@ -14,14 +14,13 @@ Linux is about 25 years old now, and it is based on unix, which is over 50 years
 
 3. Assemble your linux
 ----
-Linux is all about choices, choices you din't get to make before. Welcome to the big girs club. There are two major parts to what we call Linux OS. First there's [kernel] - the part that manages your hardware. Then there's user land tools and apps sitting on top of kernel. The packaging of those two parts plus a way to install them is called a linux distribution (you get to call it "distro" after you install it). So here's a major first choice for you: chose your distro. Every distro has its inclination, utility and yes, even philosophy. I would categorize them into three groups:
->Enthusiast/Academic: Purity, minimalism and DIY mindset. E.g.: [Slackware], [Arch Linux].
->Server: Minimalism, stability and tooling for pros. E.g.: [Cent OS], [Debian], [Ubuntu Server].
->Desktop: Novelty, ease of use and plenty of multimedia tooling. E.g.: [Ubuntu Desktop], [Debian],
+Linux is all about choices, choices you din't get to make before. Welcome to the big girs club. There are two major parts to what we call Linux OS. First there's [kernel] - the part that manages your hardware. Then there's user land tools and apps sitting on top of kernel. The packaging of those two parts plus a way to install them is called a linux distribution (you get to call it "distro" after you install it). So here's a major first choice for you: chose your distro. Every distro has its inclination, utility and yes, even philosophy. I would categorize them into three groups:  
+
+>Enthusiast/Academic: Purity, minimalism and DIY mindset. E.g.: [Slackware], [Arch Linux].  
+>Server: Minimalism, stability and tooling for pros. E.g.: [Cent OS], [Debian], [Ubuntu Server].  
+>Desktop: Novelty, ease of use and plenty of multimedia tooling. E.g.: [Ubuntu Desktop], [Debian]  
 
 Course: https://www.edx.org/course/introduction-to-linux-linuxfoundationx-lfs101x-2
-
-
 
 [linux ide]:http://blog.sanctum.geek.nz/series/unix-as-ide/
 [apt-get]:http://en.wikipedia.org/wiki/Advanced_Packaging_Tool
