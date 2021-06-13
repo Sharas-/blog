@@ -62,7 +62,7 @@ First thing that looks weird about clojure to newcomers is the parenthesis tangl
 | This is clearly data, right? | How about this then?
 | --- | --- |
 |
-```
+```clojure
     <Position>
       <MarketData>
          <TagsFrom buy />
@@ -71,7 +71,7 @@ First thing that looks weird about clojure to newcomers is the parenthesis tangl
     </Position>
 ``` 
 | 
-```
+```clojure
       (position 
            (market-data (tags-from buy))
            (aggregated buy sell))
@@ -80,6 +80,7 @@ First thing that looks weird about clojure to newcomers is the parenthesis tangl
 Instead of `<Position><MarketData>...</MarketData>...</Position>` you write `(position (market-data ...)...)` see what I mean? You are literally writing data. Evaluatable data. Data you can wrap with more evaluatable data (code) and process. In clojure **everything nests** just as in JSON or XML. In clojure **everything is an expression**, meaning, every data element (things in between parentehsis) is transformable to other data. You evaluate data to get data. Enriched or specialized or more informative data.
 
 What else you can do with data? Manipulate it with code of course! Emm... Code is data... Manipulate data with code... :exploding_head:
+
 You can also store it for later manipulation/evaluation. Or perhaps send it to another data precessor that wraps it, evaluates it and spits out more evaluatable data. You can compose those data evaluators in pipes-and-filters fashion. Or hub-and-spoke them as in my example where data evaluators orbit the central data store.
 
 
