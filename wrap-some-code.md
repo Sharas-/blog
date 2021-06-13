@@ -75,7 +75,7 @@ First thing that looks weird about clojure to newcomers is the parenthesis tangl
         ```
 
         </td>
-        <td>
+        <td>  
 
         ```clojure
               (position 
