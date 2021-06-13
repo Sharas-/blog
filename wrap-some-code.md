@@ -9,7 +9,7 @@ There's plenty of portfolio tracking tools on the nets. If it wasn't for clojure
 Instead of waxing poetic about simplicity, I would best describe hacking on clojure as "wrap some code around data". Let me ilustrate. In my crypto game, I have a bunch of transactions - facts about buying/selling cryptos and deposits I sent into the exchange. When I make a transaction I append it to an EDN file "transactions.edn":
 
 ## Transaction log - "transactions.edn"
-```
+```clojure
 {
  :deposit 
   [ 
@@ -37,7 +37,7 @@ It's a map with 3 kinds of transactions: :deposit, :buy, :sell. Transaction is a
 
 Time to wrap some code around my transactions to start deriving info about how am I doing in the crypto game. First, I want to know my position - the aggregated price of each of my purchased cryptos, compare it to the current market price, calculate the diffs, sum-up the diffs to get the totals. So I create a portfolio.clj file, load my transactions with one liner, and wrap some code on them:
 
-```
+```clojure
 (let [{:keys [deposit buy sell]} (load-file "transactions.edn")
    ;pseudo code to derive info from my transaction log:
   (print-table
