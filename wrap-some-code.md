@@ -6,9 +6,9 @@ There's plenty of portfolio tracking tools on the nets. If it wasn't for clojure
 
 ## Wrap some code around data
 
-Instead of waxing poetic about simplicity, I would best describe hacking on clojure as "wrap some code around data". Let me illustrate. In my crypto game, I have a bunch of transactions - facts about buying/selling cryptos and deposits I sent into the exchange. When I make a transaction I append it to an EDN file "transactions.edn":
+Instead of waxing poetic about simplicity, I would best describe hacking on clojure as "wrap some code around data". Let me illustrate: in my crypto game, I have a bunch of transactions - facts about buying/selling cryptos and deposits I sent into the exchange. When I make a transaction I append it to an EDN file "transactions.edn":
 
-### Transaction log - "transactions.edn"
+#### Transaction log - "transactions.edn"
 ```clojure
 {
  :deposit 
