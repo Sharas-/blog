@@ -13,19 +13,19 @@ Instead of waxing poetic about simplicity, I would best describe hacking on cloj
 {
  :deposit 
   [ 
-   ^{:date #inst "2020-04-02"} [2742] 
-   ^{:date #inst "2020-04-07"} [4200]
+   ^{:date #inst "2020-04-02"} [2340] 
+   ^{:date #inst "2020-04-07"} [3200]
   ]
   :buy ;[symbol amount unit-price]
   [ 
-     ^{:date #inst "2020-04-02"} [:FIL 11 146.02473684210526]
-     ^{:date #inst "2020-04-08"} [:DOGE 20000 0.05223200000000001]
-     ^{:date #inst "2020-04-09"} [:LTC 5 192.82999999999998]
-     ^{:date #inst "2020-04-11"} [:XRP 450 1.1966222222222223]
+     ^{:date #inst "2020-04-02"} [:FIL 8 146.02473684210526]
+     ^{:date #inst "2020-04-08"} [:DOGE 30000 0.05223200000000001]
+     ^{:date #inst "2020-04-09"} [:LTC 3 192.82999999999998]
+     ^{:date #inst "2020-04-11"} [:XRP 370 1.1966222222222223]
      ^{:date #inst "2020-05-10" 
-       :fee 15.31 :txfe0 27.58}  [:ETH 0.3 3453.0333333]
+       :fee 15.31 :txfe0 27.58}  [:ETH 0.3 579.0333333]
      ^{:date #inst "2020-05-20"} [:XRP 150 0.9904]
-     ^{:date #inst "2020-05-24"} [:XRP 140 0.71428571428]
+     ^{:date #inst "2020-05-24"} [:XRP 120 0.71428571428]
   ]
  :sell ;[symbol amount at-unit-price for-unit-price]
   [
