@@ -46,18 +46,18 @@ Time to wrap some code around my transactions to start deriving info about how a
        (aggregated buy sell))))
 ```
 
-This line: `(let [{:keys [deposit buy sell]} (load-file "transactions.edn")` makes all my different kinds of transactions available for analysis *IN datastructures I need them in (arrays, maps) populated with typed data.* Numbers are numbers (floats, ints doubles etc.). Strings, dates, tags (keywords) and metadata are automagically parsed, typed and ready for me. This is not your JSONs.
+This line: `(let [{:keys [deposit buy sell]} (load-file "transactions.edn")` makes all my different kinds of transactions available for analysis **IN datastructures I need them in (arrays, maps) populated with typed data.** Numbers are numbers (floats, ints doubles etc.). Strings, dates, tags (keywords) and metadata are automagically parsed, typed and ready for me. This is not your JSONs.
 
 The beauty is that I get all this pretty much out of the box. Clojure is ready to work with your data. In it's [core] (https://clojuredocs.org/clojure.core "clojure core") it has multitude of functions ready to be wrapped around it.
 
 # Data sits in the center
 
 Further, I need accounting info for reconciliation with an exchange, I need alerts for lucrative market changes, I need market info on cryptos I keep my eye on etc...
-All of those modules I coded *gradually* in dedicated files that orbit the transaction log. Data in transactions.edn is what drives them in metaprogramming fashion. 
+All of those modules I coded **gradually** in dedicated files that orbit the transaction log. Data in transactions.edn is what drives them in metaprogramming fashion. 
 
 # Data all the things!!!
 
-First thing that looks weird about clojure to newcomers is the parenthesis tangle. It's because you're looking at it wrong. Look at it as data - *code is data*.
+First thing that looks weird about clojure to newcomers is the parenthesis tangle. It's because you're looking at it wrong. Look at it as data - **code is data**.
 
 <table>
     <tr>
@@ -85,7 +85,7 @@ First thing that looks weird about clojure to newcomers is the parenthesis tangl
         </td>
     </tr>
 </table>
-Instead of `<Position><MarketData>...</MarketData>...</Position>` you write `(position (market-data ...)...)` see what I mean? You are literally writing data. Evaluatable data. Data you can wrap with more evaluatable data (code) and process. In clojure *everything nests* just as in JSON or XML. In clojure *everything is an expression*, meaning, every data element (things in between parentehsis) is transformable to other data. You evaluate data to get data. Enriched or specialized or more informative data.
+Instead of `<Position><MarketData>...</MarketData>...</Position>` you write `(position (market-data ...)...)` see what I mean? You are literally writing data. Evaluatable data. Data you can wrap with more evaluatable data (code) and process. In clojure **everything nests** just as in JSON or XML. In clojure **everything is an expression**, meaning, every data element (things in between parentehsis) is transformable to other data. You evaluate data to get data. Enriched or specialized or more informative data.
 
 What else you can do with data? Manipulate it with code of course! Emm... Code is data... Manipulate data with code... :exploding_head:
 You can also store it for later manipulation/evaluation. Or perhaps send it to another data precessor that wraps it, evaluates it and spits out more evaluatable data. You can compose those data evaluators in pipes-and-filters fashion. Or hub-and-spoke them as in my example where data evaluators orbit the central data store.
