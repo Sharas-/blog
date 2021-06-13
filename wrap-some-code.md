@@ -66,12 +66,12 @@ First thing that looks weird about clojure to newcomers is the parenthesis tangl
 <td>
 
 ```xml 
-<Position>
-  <MarketData>
-     <TagsFrom buy />
-  </MarketData>
-  <Aggregated buy sell />
-</Position>
+<position>
+  <market-data>
+     <tags-from buy />
+  </market-data>
+  <aggregated buy sell />
+</position>
 ```
 
 </td>
