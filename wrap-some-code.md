@@ -1,4 +1,4 @@
-# Getting clojure - wrap some code around data.
+# Getting clojure - wrap some code around data
 
 Recently FOMO got to me and I jumped on crypto speculation game. You gots to do bunch of accounting/counting/reconciling/tracking in it. Sounds boring, but clojure made it kinda fun. And that's what I want to share here.
 
@@ -86,6 +86,7 @@ First thing that looks weird about clojure to newcomers is the parenthesis tangl
     </tr>
 </table>
 Instead of `<Position><MarketData>...</MarketData>...</Position>` you write `(position (market-data ...)...)` see what I mean? You are literally writing data. Evaluatable data. Data you can wrap with more evaluatable data (code) and process. In clojure *everything nests* just as in JSON or XML. In clojure *everything is an expression*, meaning, every data element (things in between parentehsis) is transformable to other data. You evaluate data to get data. Enriched or specialized or more informative data.
+
 What else you can do with data? Manipulate it with code of course! Emm... Code is data... Manipulate data with code... :exploding_head:
 You can also store it for later manipulation/evaluation. Or perhaps send it to another data precessor that wraps it, evaluates it and spits out more evaluatable data. You can compose those data evaluators in pipes-and-filters fashion. Or hub-and-spoke them as in my example where data evaluators orbit the central data store.
 
