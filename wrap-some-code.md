@@ -66,21 +66,23 @@ First thing that looks weird about clojure to newcomers is the parenthesis tangl
     <tr>
         <td>
         ```
+        <textarea>
             <Position>
               <MarketData>
                  <Tags buy />
               </MarketData>
               <Aggregated buy sell />
             </Position>
+        </textarea>
         ```
         </pre>
         </td>
         <td>
-        <pre>
+        ```
               (position 
                    (market-data (tags buy))
                    (aggregated buy sell))
-        </pre>
+        ```
         </td>
     </tr>
 </table>
