@@ -59,32 +59,32 @@ All of those modules I coded **gradually** in dedicated files that orbit the tra
 
 First thing that looks weird about clojure to newcomers is the parenthesis tangle. It's because you're looking at it wrong. Look at it as data - **code is data**.
 <table>
-    <tr>
-        <td>This is clearly data, right?</td>  <td>How about this then?</td>
-    </tr>
-    <tr>
-        <td>
+<tr>
+<td>This is clearly data, right?</td><td>How about this then?</td>
+</tr>
+<tr>
+<td>
 
-       ```xml 
-            <Position>
-              <MarketData>
-                 <Tags buy />
-              </MarketData>
-              <Aggregated buy sell />
-            </Position>
-        ```
+```xml 
+<Position>
+  <MarketData>
+     <Tags buy />
+  </MarketData>
+  <Aggregated buy sell />
+</Position>
+```
 
-        </td>
-        <td>  
+</td>
+<td>  
 
-        ```clojure
-              (position 
-                   (market-data (tags buy))
-                   (aggregated buy sell))
-        ```
+```clojure
+(position 
+     (market-data (tags buy))
+     (aggregated buy sell))
+```
 
-        </td>
-    </tr>
+</td>
+</tr>
 </table>
 
 Instead of `<Position><MarketData>...</MarketData>...</Position>` you write `(position (market-data ...)...)` see what I mean? You are literally writing data. Evaluatable data. Data you can wrap with more evaluatable data (code) and process. In clojure **everything nests** just as in JSON or XML. In clojure **everything is an expression**, meaning, every data element (things in between parentehsis) is transformable to other data. You evaluate data to get data. Enriched or specialized or more informative data.
