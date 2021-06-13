@@ -61,11 +61,14 @@ First thing that looks weird about clojure to newcomers is the parenthesis tangl
 
 | This is clearly data, right? | How about this then?
 | --- | --- |
-| ``` <Position>
+| ``` 
+<Position>
       <MarketData>
          <TagsFrom buy />
       </MarketData>
-      <Aggregated buy sell /> </Position> ``` | ```clojure
+      <Aggregated buy sell /> 
+</Position> ``` | 
+```clojure
       (position 
            (market-data (tags-from buy))
            (aggregated buy sell)) ``` |
