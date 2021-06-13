@@ -96,7 +96,7 @@ you write
 (position (market-data ...)...)
 ```
 see what I mean? You are literally writing data. Evaluatable data. Data you can wrap with more evaluatable data (code) and process. 
-In clojure **everything nests** just as in JSON or XML. 
+In clojure **everything nests** just as in JSON or XML.   
 In clojure **everything is an expression**, meaning, every data element (things in between parentehsis) is transformable to other data. You evaluate data to get data. Enriched or specialized or more informative data.
 
 What else you can do with data? Manipulate it with code of course! Emm... Code is data... Manipulate data with code... :exploding_head:
