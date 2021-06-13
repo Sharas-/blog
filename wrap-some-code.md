@@ -59,7 +59,7 @@ All of those modules I coded **gradually** in dedicated files that orbit the tra
 
 First thing that looks weird about clojure to newcomers is the parenthesis tangle. It's because you're looking at it wrong. Look at it as data - **code is data**.
 
-| This is clearly data, right? | How about this then?
+| This is clearly data, right? | How about this then? |
 | ```xml
 <Position>
       <MarketData>
