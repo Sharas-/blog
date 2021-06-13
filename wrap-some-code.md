@@ -46,7 +46,7 @@ Time to wrap some code around my transactions to start deriving info about how a
        (aggregated buy sell))))
 ```
 
-This line: `(let [{:keys [deposit buy sell]} (load-file "transactions.edn")` makes all my different kinds of transactions available for analysis **In datastructures I need them in (arrays, maps) populated with typed data.** Numbers are numbers (floats, ints doubles etc.). Strings, dates, tags (keywords) and metadata are automagically parsed, typed and ready for me. This is not your JSONs.
+This line: `clojure(let [{:keys [deposit buy sell]} (load-file "transactions.edn")` makes all my different kinds of transactions available for analysis **In datastructures I need them in (arrays, maps) populated with typed data.** Numbers are numbers (floats, ints doubles etc.). Strings, dates, tags (keywords) and metadata are automagically parsed, typed and ready for me. This is not your JSONs.
 
 The beauty is that I get all this pretty much out of the box. Clojure is ready to work with your data. In it's [core] (https://clojuredocs.org/clojure.core "clojure core") it has multitude of functions ready to be wrapped around it.
 
@@ -60,7 +60,7 @@ All of those modules I coded **gradually** in dedicated files that orbit the tra
 First thing that looks weird about clojure to newcomers is the parenthesis tangle. It's because you're looking at it wrong. Look at it as data - **code is data**.
 
 | This is clearly data, right? | How about this then?
-| ``` 
+| ```xml
 <Position>
       <MarketData>
          <TagsFrom buy />
