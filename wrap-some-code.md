@@ -73,6 +73,7 @@ First thing that looks weird about clojure to newcomers is the parenthesis tangl
               <Aggregated buy sell />
             </Position>
         ```
+
         </td>
         <td>
 
@@ -81,6 +82,7 @@ First thing that looks weird about clojure to newcomers is the parenthesis tangl
                    (market-data (tags buy))
                    (aggregated buy sell))
         ```
+
         </td>
     </tr>
 </table>
