@@ -58,7 +58,7 @@ All of those modules I coded **gradually** in dedicated files that orbit the tra
 # Data all the things!!!
 
 First thing that looks weird about clojure to newcomers is the parenthesis tangle. It's because you're looking at it wrong. Look at it as data - **code is data**.
-<table style='border: none'>
+<table style='border: none; border-colapse: colapse'>
 <tr>
 <td>This is clearly data, right?</td><td>How about this then?</td>
 </tr>
