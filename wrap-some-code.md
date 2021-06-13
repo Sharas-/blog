@@ -65,7 +65,6 @@ First thing that looks weird about clojure to newcomers is the parenthesis tangl
     </tr>
     <tr>
         <td>
-        ```
         <textarea>
             <Position>
               <MarketData>
@@ -74,7 +73,6 @@ First thing that looks weird about clojure to newcomers is the parenthesis tangl
               <Aggregated buy sell />
             </Position>
         </textarea>
-        ```
         </pre>
         </td>
         <td>
