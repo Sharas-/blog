@@ -9,7 +9,7 @@ There's plenty of portfolio tracking tools on the nets. If it wasn't for clojure
 Instead of waxing poetic about simplicity, I would best describe hacking on clojure as "wrap some code around data". Let me illustrate: in my crypto game, I have a bunch of transactions - facts about buying/selling cryptos and deposits I sent into the exchange. When I make a transaction I append it to an EDN file "transactions.edn":
 
 #### Transaction log - "transactions.edn"
-```edn
+```clojure
 {
  :deposit 
   [ 
@@ -33,9 +33,9 @@ Instead of waxing poetic about simplicity, I would best describe hacking on cloj
   ] 
 }
 ```
-It's a map with 3 kinds of transactions: :deposit, :buy, :sell. Transaction is an array (vector) that has a tag of a crypto, amount and price. Dates are metadata about my transactions and clojure has a notion of [metadata] (https://clojure.org/reference/metadata) built-in, you can attach it to the peace of data (like an array), read it when you want it, but keep it out of the way of calculations. 
+It's a map with 3 kinds of transactions: :deposit :buy :sell. Transaction is an array (vector) that has a tag of a crypto, amount and price. Dates are metadata about my transactions and clojure has a notion of [metadata](https://clojure.org/reference/metadata) built-in, you can attach it to the peace of data (like an array), read it when you want it, but keep it out of the way of calculations. 
 
-Tags are important to designate data, it's built-in into clojure too. Data that starts with a colon is a tag. Clojure calls those [keywords] (https://clojure.org/reference/data_structures#Keywords).
+Tags are important to designate data, it's built-in into clojure too. Data that starts with a colon is a tag. Clojure calls those [keywords](https://clojure.org/reference/data_structures#Keywords).
 
 Time to wrap some code around my transactions to start deriving info about how am I doing in the crypto game. First, I want to know my position - the aggregated price of each of my purchased cryptos, compare it to the current market price, calculate the diffs, sum-up the diffs to get the totals. So I create a portfolio.clj file, load my transactions with one liner, and wrap some code on them:
 
@@ -50,7 +50,7 @@ Time to wrap some code around my transactions to start deriving info about how a
 
 This line: `(let [{:keys [deposit buy sell]} (load-file "transactions.edn")` makes all my different kinds of transactions available for analysis **in datastructures I need them in (arrays, maps, sets) populated with typed data.** Numbers are numbers (floats, ints doubles etc.). Strings, dates, tags (keywords) and metadata are automagically parsed, typed and ready for me. This is not your JSONs.
 
-The beauty is that I get all this pretty much out of the box. Clojure is ready to work with your data. In it's [core] (https://clojuredocs.org/clojure.core "clojure core") it has multitude of functions ready to be wrapped around it.
+The beauty is that I get all this pretty much out of the box. Clojure is ready to work with your data. In it's [core](https://clojuredocs.org/clojure.core "clojure core") it has multitude of functions ready to be wrapped around it.
 
 ## Data sits in the center
 
