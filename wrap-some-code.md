@@ -66,6 +66,7 @@ First thing that looks weird about clojure to newcomers is the parenthesis tangl
 </tr>
 <tr>
 <td>
+
 ```xml 
 <position>
   <market-data>
@@ -76,6 +77,7 @@ First thing that looks weird about clojure to newcomers is the parenthesis tangl
 ```
 </td>
 <td>  
+
 ```clojure
 (position 
      (market-data (tags-from buy))
