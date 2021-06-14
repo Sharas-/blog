@@ -17,9 +17,6 @@
 		</span>
 	on <span itemprop="dateCreated">{{ page.date | date: "%-d %B %Y" }}</span>
     tags: {% for tag in post.tags %} {{ tag }} {% endfor %}
-  </ul>
-{% endfor %}
-	</h3>
 </div>
 <div id="content" itemprop="text">
 {{ content }}
