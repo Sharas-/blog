@@ -103,7 +103,7 @@ This is not your Javas.
 
 What else you can do with data? Manipulate it with code of course! Emm... Code is data... Manipulate data with code... :exploding_head:
 
-You can also store it for later manipulation/evaluation. Or perhaps send it to another data processor that wraps it, evaluates it and spits-out more evaluatable data. You can compose those data evaluators in pipes-and-filters fashion. Or hub-and-spoke them as in my example where data evaluators orbit the central data store.
+You can also store it for later manipulation/evaluation. Or perhaps send it to another data processor that wraps it, evaluates it and spits-out more evaluatable data. You can compose those data evaluators in pipes-and-filters fashion, perhaps with [channels](https://clojure.org/news/2013/06/28/clojure-clore-async-channels). Or hub-and-spoke them as in my example where data evaluators orbit the central data store.
 
 ## Start from data
 
