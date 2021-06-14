@@ -1,0 +1,4 @@
+#_config.yml
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables", "fenced_code_blocks"]
