@@ -1,4 +1,4 @@
-# Getting clojure - wrap some code around data
+# Fun of clojure - wrap some code around data
 
 Recently FOMO got to me and I jumped on crypto speculation game. You gots to do bunch of accounting/counting/reconciling/tracking in it. Sounds boring, but clojure made it kinda fun. And that's what I want to share here.
 
@@ -35,7 +35,7 @@ Instead of waxing poetic about simplicity, I would best describe hacking on cloj
 ```
 It's a map with 3 kinds of transactions: :deposit :buy :sell. Transaction is an array (vector) that has a tag of a crypto, amount and price. Dates are metadata about my transactions and clojure has a notion of [metadata](https://clojure.org/reference/metadata) built-in, you can attach it to the peace of data (like an array), read it when you want it, but keep it out of the way of calculations. 
 
-Tags are important to designate data, it's built-in into clojure too. Data that starts with a colon is a tag. Clojure calls those [keywords](https://clojure.org/reference/data_structures#Keywords).
+Tags are important to designate data, it's built-in into clojure too. Data that starts with a colon is a tag. Clojure calls those [keywords](https://clojure.org/reference/data_structures#Keywords). Plus, in clojure, keywords can be namespaced like :sidestep.crypto.game/BTC
 
 Time to wrap some code around my transactions to start deriving info about how am I doing in the crypto game. First, I want to know my position - the aggregated price of each of my purchased cryptos, compare it to the current market price, calculate the diffs, sum-up the diffs to get the totals. So I create a portfolio.clj file, load my transactions with one liner, and wrap some code on them:
 
@@ -98,9 +98,12 @@ you write
 see what I mean? You are literally writing data. Evaluatable data. Data you can wrap with more evaluatable data (code) and process.   
 - In clojure **everything nests** just as in JSON or XML.
 - In clojure **everything is an expression**. Meaning, every data element (things between parenthesis) is transformable to other data. You evaluate data to get data. 
+This is not your Javas.
 
 What else you can do with data? Manipulate it with code of course! Emm... Code is data... Manipulate data with code... :exploding_head:
 
 You can also store it for later manipulation/evaluation. Or perhaps send it to another data processor that wraps it, evaluates it and spits-out more evaluatable data. You can compose those data evaluators in pipes-and-filters fashion. Or hub-and-spoke them as in my example where data evaluators orbit the central data store.
 
+## Start from data
 
+You see how data centric clojure is. To get the fun of clojure try on this data first mindset. Clojurish way to start designing your code is by writing some data that you'll be wrapping it on. Then you wrap some code around it and see how it wraps by sending it to [REPL](https://clojure.org/guides/repl/introduction) for fast feedback/insights.  See what data your wrapped code produces, refactor, wrap some more. Do this from the comfort of your [favourite editor](https://clojure.org/guides/repl/enhancing_your_repl_workflow#editor-integrations). When you see first rough draft of design solidifying - declare constraints/schema of your data with [clojure spec](https://clojure.org/guides/spec) and let it [generate](https://clojure.org/guides/spec#_sampling_generators) data for you. [Exercise](https://clojure.org/guides/spec#_exercise) your functions - let the machine do its thing. This is not your TDDs.
