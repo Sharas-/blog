@@ -35,7 +35,7 @@ Instead of waxing poetic about simplicity, I would best describe hacking on cloj
 ```
 It's a map with 3 kinds of transactions: :deposit :buy :sell. Transaction is an array (vector) that has a tag of a crypto, amount and price. Dates are metadata about my transactions and clojure has a notion of [metadata](https://clojure.org/reference/metadata) built-in, you can attach it to the peace of data (like an array), read it when you want it, but keep it out of the way of calculations. 
 
-Tags are important to designate data, it's built-in into clojure too. Data that starts with a colon is a tag. Clojure calls those [keywords](https://clojure.org/reference/data_structures#Keywords). Plus, in clojure, keywords can be namespaced like :sidestep.crypto.game/BTC
+Tags are important to designate data, it's built-in into clojure too. Data that starts with a colon is a tag. Clojure calls those [keywords](https://clojure.org/reference/data_structures#Keywords). Plus, in clojure, keywords can be namespaced like `:sidestep.crypto.game/BTC`.
 
 Time to wrap some code around my transactions to start deriving info about how am I doing in the crypto game. First, I want to know my position - the aggregated price of each of my purchased cryptos, compare it to the current market price, calculate the diffs, sum-up the diffs to get the totals. So I create a portfolio.clj file, load my transactions with one liner, and wrap some code on them:
 
@@ -107,7 +107,7 @@ You can also store it for later manipulation/evaluation. Or perhaps send it to a
 
 ## Start from data
 
-You see how data centric clojure is. To get the fun of clojure try on this data-first mindset:
+You see how data-centric clojure is. To get the fun of clojure try on this data-first mindset:
 
 - Clojurish way to start designing your code is by writing some data that you'll be wrapping it on. 
 - Then you wrap some code around it and see how it wraps by sending it to [REPL](https://clojure.org/guides/repl/introduction) for fast feedback/insights. 
