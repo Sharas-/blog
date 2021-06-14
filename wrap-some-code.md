@@ -74,7 +74,7 @@ First thing that looks weird about clojure to newcomers is the parenthesis tangl
   </market-data>
   <aggregated buy sell />
 </position>
-{% endhighlight %}`
+{% endhighlight %}
 
 </td>
 <td>  
@@ -83,7 +83,7 @@ First thing that looks weird about clojure to newcomers is the parenthesis tangl
 (position 
      (market-data (tags-from buy))
      (aggregated buy sell))
-{% endhighlight %}`
+{% endhighlight %}
 
 </td>
 </tr>
