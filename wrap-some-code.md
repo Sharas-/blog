@@ -1,6 +1,6 @@
 # Fun of clojure - wrap some code around data
 
-Recently FOMO got to me and I jumped on crypto speculation game. You gots to do bunch of accounting/counting/reconciling/tracking in it. Sounds boring, but clojure made it kinda fun. And that's what I want to share here.
+Recently FOMO got to me and I jumped on crypto speculation game. You gots to do bunch of accounting/counting/reconciling/tracking in it. Sounds boring, but clojure made it fun. And that's what I want to share here.
 
 There's plenty of portfolio tracking tools on the nets. If it wasn't for clojure I would go for one of those and would reluctantly give-out info about my trades to a third party. Rather that though than teaching C# or java compiler about structure of my data with classes/structs so that I can start deriving info from it. Even with dynamic Python it would be a hassle.
 
