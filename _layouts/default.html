@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link href="/static/main.css" media="screen" rel="stylesheet" type="text/css" />
+	<title>{{ post.title }}</title>
+</head>
+<body>
+<span itemscope itemtype="http://schema.org/BlogPosting">
+<div id="header">
+    <h1 itemprop="name" id="title">{{ post.title }}</h1>
+	<h3 class="signature">
+		By
+		<span itemprop="author" itemscope itemtype="http://schema.org/Person" class="author">
+			<span itemprop="givenName">SideStep</span>
+			<a itemprop="sameAs" target="_blank" href="https://gitlab.com/sidestep">@SideStep</a>
+		</span>
+	on <span itemprop="dateCreated">{{ page.date | date: "%-d %B %Y" }}</span>
+    tags: {% for tag in post.tags %} {{ tag }} {% endfor %}
+  </ul>
+{% endfor %}
+	</h3>
+</div>
+<div id="content" itemprop="text">
+{{ content }}
+</div>
+</span>
+</body>
+</html>
+
