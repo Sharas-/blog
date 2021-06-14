@@ -1,4 +1,8 @@
-# Fun of clojure - wrap some code around data
+---
+layout: post
+title: "Fun of clojure - wrap some code around data"
+tags: clojure programming
+---
 
 Recently FOMO got to me and I jumped on crypto speculation game. You gots to do bunch of accounting/counting/reconciling/tracking in it. Sounds boring, but clojure made it fun. And that's what I want to share here.
 
