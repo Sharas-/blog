@@ -97,7 +97,7 @@ you write
 ```
 see what I mean? You are literally writing data. Evaluatable data. Data you can wrap with more evaluatable data (code) and process.   
 - In clojure **everything nests** just as in JSON or XML.
-- In clojure **everything is an expression**. Meaning, every data element (things between parenthesis) is transformable to other data. You evaluate data to get data. 
+- In clojure **everything is an expression**. Meaning, every data element (things between parenthesis) is transformable to other data. You evaluate data to get data.   
 This is not your Javas.
 
 What else you can do with data? Manipulate it with code of course! Emm... Code is data... Manipulate data with code... :exploding_head:
