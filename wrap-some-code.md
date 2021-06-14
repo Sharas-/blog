@@ -68,21 +68,25 @@ First thing that looks weird about clojure to newcomers is the parenthesis tangl
 <td>
 
 ```xml 
+{% highlight xml %}
 <position>
   <market-data>
      <tags-from buy />
   </market-data>
   <aggregated buy sell />
 </position>
+{% endhighlight %}`
 ```
 
 </td>
 <td>  
 
 ```clojure
+{% highlight clojure %}
 (position 
      (market-data (tags-from buy))
      (aggregated buy sell))
+{% endhighlight %}`
 ```
 
 </td>
