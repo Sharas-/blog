@@ -1,0 +1,76 @@
+body
+{ 
+    margin: 0; 
+    padding: 0;
+    background-color: #FAFAFA;
+    width: 50%; 
+    margin: 0 auto;
+    text-align: left;
+}
+
+h1, h2, h3
+{
+  font-family: verdana, arial;
+}
+
+.signature
+{
+      font-size: 0.9em;
+}
+
+#content
+{
+    font-family: "Sans serif", Serif;
+    font-size: 1.1em;
+    line-height: 150%;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#content p:first-of-type:first-letter
+{
+   font-size: 2em;
+   font-family: times;
+}
+
+#header #title
+{
+    text-align: center;
+    display: block;
+    border-bottom: thin solid black;
+    padding-bottom: 5px;
+}
+
+blockquote 
+{
+  background: #f9f9f9;
+  border-left: 4px solid #ccc;
+  font-size: 0.9em;
+  font-style: italic;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote p 
+{
+  display: inline;
+}
+
+blockquote cite
+{
+  font-size: 0.8em;
+  display: block;
+}
+
+blockquote cite:before 
+{
+ content: "\2014 \2009";
+}
+@media screen and (max-width: 1028px), (max-device-width: 1080px)
+{
+    body
+    {
+      width: 90%; 
+    }
+}
