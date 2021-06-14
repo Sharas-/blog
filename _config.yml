@@ -1,6 +1,6 @@
 #_config.yml
-title: Fun of clojure - wrap some code around data
-description: wrap some code around data
+#title: Fun of clojure - wrap some code around data
+#description: wrap some code around data
 show_downloads: false
 google_analytics: Fun of clojure wrap some code around data
 theme: jekyll-theme-cayman
