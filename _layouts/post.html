@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta charset="UTF-8">
 	<link href="/static/main.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="/static/github.css" media="screen" rel="stylesheet" type="text/css" />
 	<title>{{ post.title }}</title>
 </head>
 <body>
@@ -12,7 +13,6 @@
 	<h3 class="signature">
 		By
 		<span itemprop="author" itemscope itemtype="http://schema.org/Person" class="author">
-			<span itemprop="givenName">sidestep</span>
 			<a itemprop="sameAs" target="_blank" href="https://gitlab.com/sidestep">@sidestep</a>
 		</span>
 	on <span itemprop="dateCreated">{{ page.date | date: "%-d %B %Y" }}</span>

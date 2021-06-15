@@ -39,7 +39,7 @@ Instead of waxing poetic about simplicity, I would best describe hacking on cloj
 ```
 It's a map with 3 kinds of transactions: :deposit :buy :sell. Transaction is an array (vector) that has a tag of a crypto, amount and price. Dates are metadata about my transactions and clojure has a notion of [metadata](https://clojure.org/reference/metadata) built-in, you can attach it to the peace of data (like an array), read it when you want it, but keep it out of the way of calculations. 
 
-Tags are important to designate data, it's built-in into clojure too. Data that starts with a colon is a tag. Clojure calls those [keywords](https://clojure.org/reference/data_structures#Keywords). Plus, in clojure, keywords can be namespaced like `:sidestep.crypto.game/BTC`.
+Tags are important to designate data, it's built-in into clojure too. Data that starts with a colon is a tag. Clojure calls those [keywords](https://clojure.org/reference/data_structures#Keywords). Plus, in clojure, keywords can be namespaced like `:sidestep.crypto.game/BTC`{:.language-clojure .highlight}.
 
 Time to wrap some code around my transactions to start deriving info about how am I doing in the crypto game. First, I want to know my position - the aggregated price of each of my purchased cryptos, compare it to the current market price, calculate the diffs, sum-up the diffs to get the totals. So I create a portfolio.clj file, load my transactions with one liner, and wrap some code on them:
 
@@ -52,7 +52,7 @@ Time to wrap some code around my transactions to start deriving info about how a
        (aggregated buy sell))))
 ```
 
-This line: `(let [{:keys [deposit buy sell]} (load-file "transactions.edn")` makes all my different kinds of transactions available for analysis **in datastructures I need them in (arrays, maps, sets) populated with typed data.** Numbers are numbers (floats, ints doubles etc.). Strings, dates, tags (keywords) and metadata are automagically parsed, typed and ready for me. This is not your JSONs.
+This line: `(let [{:keys [deposit buy sell]} (load-file "transactions.edn")`{:.language-clojure .highlight} makes all my different kinds of transactions available for analysis **in datastructures I need them in (arrays, maps, sets) populated with typed data.** Numbers are numbers (floats, ints doubles etc.). Strings, dates, tags (keywords) and metadata are automagically parsed, typed and ready for me. This is not your JSONs.
 
 The beauty is that I get all this pretty much out of the box. Clojure is ready to work with your data. In it's [core](https://clojuredocs.org/clojure.core "clojure core") it has multitude of functions ready to be wrapped around it.
 

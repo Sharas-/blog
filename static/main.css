@@ -3,19 +3,50 @@ body
     margin: 0; 
     padding: 0;
     background-color: #FAFAFA;
-    width: 50%; 
+    width: 40%; 
     margin: 0 auto;
     text-align: left;
+    color: rgba(0,0,0,0.9) 
 }
 
-h1, h2, h3
+h1 {font-size: 170%}
+h2 {font-size: 130%}
+h3 {font-size: 120%}
+h4 {font-size: 110%}
+
+h1, h2, h3, h4
 {
   font-family: verdana, arial;
+  color: rgb(64,64,64); 
+}
+
+#header #title
+{
+    text-align: center;
+    text-color: rgb(41, 41, 41);
+    font-family: sans-serif;
+    font-weight: bold;
+    display: block;
+    border-bottom: thin solid black;
+    padding-bottom: 5px;
+}
+
+a:link, a:visited, a:active, a:hover
+{
+  color: darkblue;
+}
+
+.author a
+{
+    color: rgb(26, 137, 23);
+    text-decoration: none;
 }
 
 .signature
 {
-      font-size: 0.9em;
+    color: rgb(117, 117, 117);
+    line-height: 20px;
+    font-size: 0.9em;
 }
 
 #content
@@ -29,16 +60,8 @@ h1, h2, h3
 
 #content p:first-of-type:first-letter
 {
-   font-size: 2em;
+   font-size: 1.5em;
    font-family: times;
-}
-
-#header #title
-{
-    text-align: center;
-    display: block;
-    border-bottom: thin solid black;
-    padding-bottom: 5px;
 }
 
 blockquote 
