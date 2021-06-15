@@ -1,2 +1,4 @@
 #_config.yml
 permalink: /posts/:title:output_ext
+exclude:
+    - publish.sh

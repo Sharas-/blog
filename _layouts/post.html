@@ -15,8 +15,8 @@
 		<span itemprop="author" itemscope itemtype="http://schema.org/Person" class="author">
 			<a itemprop="sameAs" target="_blank" href="https://gitlab.com/sidestep">@sidestep</a>
 		</span>
-	on <span itemprop="dateCreated">{{ page.date | date: "%-d %B %Y" }}</span>
-    tags: {% for tag in page.tags %} {{ tag }} {% endfor %}
+	on <span itemprop="dateCreated" class="date">{{ page.date | date: "%-d %B %Y" }}</span>
+    <span class="tags">tags: {% for tag in page.tags %} {{ tag }} {% endfor %}</span>
 </div>
 <div id="content" itemprop="text">
 {{ content }}

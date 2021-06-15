@@ -3,19 +3,37 @@ body
     margin: 0; 
     padding: 0;
     background-color: #FAFAFA;
-    width: 40%; 
+    width: 45%; 
     margin: 0 auto;
     text-align: left;
-    color: rgba(0,0,0,0.9) 
+    color: rgba(0,0,0,0.9);
+    letter-spacing: 0.01em;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.75;
 }
 
-h1 {font-size: 170%}
-h2 {font-size: 130%}
-h3 {font-size: 120%}
-h4 {font-size: 110%}
+.signature .tags
+{
+    float: right;
+}
+
+.highlight
+{
+    background-color: #F0F0F0;
+    font-family: arial;
+    font-weight: normal;
+}
+
+h1 {font-size: 2em;}
+h2 {font-size: 1.5em;}
+h3 {font-size: 1.3em;}
+h4 {font-size: 1em; margin: 0 0 0 0; }
 
 h1, h2, h3, h4
 {
+
   font-family: verdana, arial;
   color: rgb(64,64,64); 
 }
@@ -24,7 +42,6 @@ h1, h2, h3, h4
 {
     text-align: center;
     text-color: rgb(41, 41, 41);
-    font-family: sans-serif;
     font-weight: bold;
     display: block;
     border-bottom: thin solid black;
@@ -46,7 +63,7 @@ a:link, a:visited, a:active, a:hover
 {
     color: rgb(117, 117, 117);
     line-height: 20px;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 #content
