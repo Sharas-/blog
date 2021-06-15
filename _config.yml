@@ -1,3 +1,2 @@
 #_config.yml
-
-theme: jekyll-theme-minimal
+permalink: /posts/:title:output_ext
