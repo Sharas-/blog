@@ -1,4 +1,8 @@
-# IT Craftsmen Learning club
+---
+layout: post
+title: "IT Craftsmen Learning club"
+tags: "learning craftsmanship journeyman"
+---
 
 Learning is what makes us craftsmen. I want to intensify that already rewarding exercise. First, by energizing the activity of learning, and second, by reinforcing the knowledge and skills that we acquired. Learning within a team of like minded researchers achieves first objective. Presenting and explaining your newly acquired knowledge to fellow craftsmen takes care of the second. This is the purpose of IT Craftsmen Learning Club. 
 

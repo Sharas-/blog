@@ -1,4 +1,8 @@
-# Administratively encircled
+---
+layout: post
+title: "Administratively encircled"
+tags: "bureaucracy culture"
+---
 
 While re-reading a wisdom candy - "Systemantics: How Systems Work and Especially How They Fail" by John Gall, I discovered a story of Lionell Trilium. I suspect, just like me, quite a few of techies had a corporate box-ticker* (e.g. scrum master) demand a written plan with estimates for something that is essentially a discovery/learning endevour. Thus the techie, in Galls' terms, becomes "Administratively encircled". The story is an enlightening example of "systems people" (Mr. Baneberry) through which systems encroach. Enjoy.
 

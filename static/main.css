@@ -107,6 +107,7 @@ blockquote cite:before
 {
  content: "\2014 \2009";
 }
+
 @media screen and (max-width: 1028px), (max-device-width: 1080px)
 {
     body

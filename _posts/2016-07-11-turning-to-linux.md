@@ -1,5 +1,8 @@
-Turning to Linux - first steps
-====
+---
+layout: post
+title: "Turning to Linux - first steps"
+tags: "learn linux"
+---
 
 As an ex Microsoft sellout, I welcome you, comrad, to the next level of your professional growth. Here's a path I took to make that transition.
 

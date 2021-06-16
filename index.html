@@ -1,0 +1,63 @@
+---
+title: "sidesteps' blog"
+---
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+	<link href="/static/main.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="/static/github.css" media="screen" rel="stylesheet" type="text/css" />
+	<title>{{ page.title }}</title>
+<style>
+#posts
+{
+    width: 100%;
+    font-size: 18px;
+}
+
+#posts td
+{
+    padding: 10px;
+}
+#posts a
+{
+    text-decoration: none;
+}
+
+#posts tr:nth-child(odd) 
+{
+    background:	#E8E8E8;
+}
+
+#posts tr:nth-child(even) 
+{
+    background: #FFF;
+}
+</style>
+</head>
+<body>
+<div id="header">
+    <h1 itemprop="name" id="title">{{ page.title }}</h1>
+	<h3 class="signature">
+		By <span itemprop="author" itemscope itemtype="http://schema.org/Person" class="author">
+			<a itemprop="sameAs" target="_blank" href="https://gitlab.com/sidestep">@sidestep</a>
+		</span>
+    <span class="tags">tags: tech programming design architecture</span>
+</div>
+<div id="content" itemprop="text">
+<table id="posts">
+  {% for post in site.posts %}
+    <tr>
+     <td>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+     </td>
+     <td>
+        {{ post.tags | join ", " }}
+     </td>
+    </tr>
+  {% endfor %}
+</table>
+</div>
+</body>
+</html>
+

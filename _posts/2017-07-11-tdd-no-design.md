@@ -1,4 +1,8 @@
-# TDD is <del>dead</del> not a design methodology
+---
+layout: post
+title: "TDD is <del>dead</del> not a design methodology"
+tags: "TDD design"
+---
 
 Recently, on an interview, I was explaining to an enthusiastic candidate what is Test Driven Development. 
 
