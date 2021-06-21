@@ -1,7 +1,6 @@
 #! /bin/bash
 
-rm _site -rf
-sudo docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/jekyll:3.8 jekyll build && \
+./build && \
 cd _site && \
 git init && \
 git add . && \

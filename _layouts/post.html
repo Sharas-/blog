@@ -13,7 +13,7 @@
 	<h3 class="signature">
 		By
 		<span itemprop="author" itemscope itemtype="http://schema.org/Person" class="author">
-			<a itemprop="sameAs" target="_blank" href="https://gitlab.com/sidestep">@sidestep</a>
+            <a itemprop="sameAs" target="_blank" href='mailto:sidestep@gigz.eu'>@sidestep</a>
 		</span>
 	on <span itemprop="dateCreated" class="date">{{ page.date | date: "%-d %B %Y" }}</span>
     <span class="tags">tags: {% for tag in page.tags %} {{ tag }} {% endfor %}</span>
@@ -22,5 +22,8 @@
 {{ content }}
 </div>
 </span>
+<div id="comments">
+   <a id="add-comment" target="_blank" href='mailto:comm@gigz.eu?subject=COMMENT: {{ page.title }}'>[Add comment]</a>
+</div>
 </body>
 </html>

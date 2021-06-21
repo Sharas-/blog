@@ -113,7 +113,7 @@ You can also store it for later manipulation/evaluation. Or perhaps send it to a
 
 ## Start from data
 
-You see how data-centric clojure is. To get the fun of clojure try on this data-first mindset:
+You see how data-centric clojure is. To get the fun of clojure try this data-first mindset on:
 
 - Clojurish way to start designing your code is by writing some data that you'll be wrapping it on. 
 - Then you wrap some code around it and see how it wraps by sending it to [REPL](https://clojure.org/guides/repl/introduction) for fast feedback/insights. 

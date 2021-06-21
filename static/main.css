@@ -23,6 +23,13 @@ body
     margin-left: 20px;
 }
 
+.signature
+{
+    color: rgb(117, 117, 117);
+    line-height: 20px;
+    font-size: 1em;
+}
+
 .signature .tags
 {
     float: right;
@@ -33,6 +40,20 @@ body
     background-color: #F0F0F0;
     font-family: arial;
     font-weight: normal;
+}
+
+#comments 
+{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#add-comment
+{
+    color: darkgreen;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-size: 1.2em;
 }
 
 h1 {font-size: 2em;}
@@ -68,12 +89,6 @@ a:link, a:visited, a:active, a:hover
     text-decoration: none;
 }
 
-.signature
-{
-    color: rgb(117, 117, 117);
-    line-height: 20px;
-    font-size: 1em;
-}
 
 #content p:first-of-type:first-letter
 {
