@@ -117,7 +117,8 @@ You see how data-centric clojure is. To get the fun of clojure try this data-fir
 
 - Clojurish way to start designing your code is by writing some data that you'll be wrapping it on. 
 - Then you wrap some code around it and see how it wraps by sending it to [REPL](https://clojure.org/guides/repl/introduction) for fast feedback/insights. 
-- See what data your wrapped code produces, refactor, wrap some more.  Do this from the comfort of your [favourite editor](https://clojure.org/guides/repl/enhancing_your_repl_workflow#editor-integrations). 
+- See what data your wrapped code produces, refactor, wrap some more. Do this from the comfort of your [favourite editor](https://clojure.org/guides/repl/enhancing_your_repl_workflow#editor-integrations). 
+- Keep sending code to a bacground REPL instance for quick feedback. Keyboard shortcuts for evaluating blocks of code under cursor will be in your muscle memory.
 - When you see first rough draft of design solidifying - declare constraints/schema of your data with [clojure spec](https://clojure.org/guides/spec) and let it [generate](https://clojure.org/guides/spec#_sampling_generators) data for you. 
 - [Exercise](https://clojure.org/guides/spec#_exercise) your functions - let the machine do its thing. 
 

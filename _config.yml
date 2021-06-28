@@ -1,4 +1,6 @@
 #_config.yml
 permalink: /posts/:title:output_ext
+baseurl: "https://sidesteps.github.io"
 exclude:
-    - publish.sh
+    - publish
+    - build
